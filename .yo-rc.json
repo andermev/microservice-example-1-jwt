@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "microserviceExample1Jwt",
+    "packageName": "io.github.jhipster.application",
+    "packageFolder": "io/github/jhipster/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.5.0",
+    "jwtSecretKey": "NDY2YzFmNmIyZTE2YTAwOGQwNWIwMWYyZDIwZmFkOWEwNjRkMTllNTZjOWE1MWU0ZjQzNzZhOGE3MDFmNGNhYzZmOWFjNjAyMTgzNDNlYjBmODljYWE5YzI5NzkzYTA5MDkyMmRiM2M4ZWEyMWFhMDZmNWYxMjFkZGVlZDA4ZDM="
+  },
+  "git-provider": "GitHub",
+  "git-company": "andermev",
+  "repository-name": "microservice-example-1-jwt"
+}
